@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Audio Player</title>
+</head>
+<body>
+    <h1 style="color: white">Music Player</h1>
+    <div class="container">
+        <div class="heading_progessbar">
+            <h3 id="song_title"></h3>
+            <div id="progress_bar" class="progress_wrapper">
+                <div id="progress" class="progress"></div>
+            </div>
+        </div>
+
+        <audio id="audio" src=""></audio>
+
+        <div class="rotate_playprevnext_wrapper">
+            <div id="img_rotate_wrapper" class="img_rotate_wrapper">
+                <img id ='img' src="images/He Did It Again.png" alt="">
+            </div>
+
+            <div class="play_pause_wrapper">
+                <a id="backward" href="#"><i class="fas fa-backward"></i></a>
+                <a id="play" href="#"><i class="far fa-play-circle"></i></a>
+                <a id="forward" href="#"><i class="fas fa-forward"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
